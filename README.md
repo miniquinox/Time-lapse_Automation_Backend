@@ -26,7 +26,7 @@ created.
 5. Insert the MicroSD card and click on "Print from SD card". Select "Structure.gcode".  
       > **Make sure to have at least 23 grams of PLA loaded on your printer**  
 5. After it is done printing, wait for the bed to cool down and remove the print and its supports carefully.  
-      **Do the following steps regardless even if you have a printer added already**  
+      > **Do the following steps regardless even if you have a printer added already**  
 6. Open Ultimaker Cura and click on Settings > Printer > Add printer
 7. Click on "Add a non-networked printer"
 8. Go down to "Creality3D" and select your printer
