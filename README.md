@@ -59,6 +59,6 @@ M84 X Y E ;Disable all steppers but Z
 
 12. You have now added your printer with timelapse settings!  
 13. Go ahead and open the following link:  
-        https://raw.githubusercontent.com/miniquinox/Time-lapse_Automation/main/CustomTimelapse.py
+      > https://raw.githubusercontent.com/miniquinox/Time-lapse_Automation/main/CustomTimelapse.py
 14. Right click on the code and select "Save As". Save it as "CustomTimelapse" and file type "Python"
 15. 
