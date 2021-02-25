@@ -58,8 +58,8 @@ M104 S0 ;Turn-off hotend
 M140 S0 ;Turn-off bed  
 M84 X Y E ;Disable all steppers but Z  
 
-14. You have now added your printer with timelapse settings! 
-15. Go ahead and download the following script:
+14. You have now added your printer with timelapse settings!  
+15. Go ahead and download the following script:  
         www.facebook.com
 16. sfdg
 17. 
