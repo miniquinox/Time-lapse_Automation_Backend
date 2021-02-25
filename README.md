@@ -24,7 +24,7 @@ created.
 3. Open Notepad and paste with CTRL+V. Then save the file as "Structure.gcode".
 4. Put this file in your MicroSD card.
 5. Insert the MicroSD card and click on "Print from SD card". Select "Structure.gcode".  
-      **Make sure to have at least 23 grams of PLA loaded on your printer**  
+      > **Make sure to have at least 23 grams of PLA loaded on your printer**  
 5. After it is done printing, wait for the bed to cool down and remove the print and its supports carefully.  
       **Do the following steps regardless even if you have a printer added already**  
 6. Open Ultimaker Cura and click on Settings > Printer > Add printer
