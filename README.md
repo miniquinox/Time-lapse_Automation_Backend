@@ -46,9 +46,8 @@ G1 Z2.0 F3000 ; Move Z Axis up little to prevent scratching of Heat Bed
 G1 X5 Y20 Z0.3 F5000.0 ; Move over to prevent blob squish  
   
 11. **Delete the content in the "End-Gcode" cell and replace it with the following:**
-
-G91 ;Relative positioning\n  
-G1 E-2 F2700 ;Retract a bit\n  
+> G91 ;Relative positioning\n  
+> G1 E-2 F2700 ;Retract a bit\n  
 G1 E-2 Z0.2 F2400 ;Retract and raise Z\n  
 G1 X5 Y5 F3000 ;Wipe out  
 G1 Z10 ;Raise Z more  
