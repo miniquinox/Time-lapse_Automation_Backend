@@ -5,19 +5,19 @@ which will allow you to later on put them together in a scene using Adobe Premie
 This method will seemlessly show the extruder hovering above your print while it is being 
 created. 
 
-# Hardware and Software necessary
+### Hardware and Software necessary
 
 - One of the following 3D printers: Ender 2, Ender 3 Pro, Ender 3 V2
 - 22g of filament
 - Ultimaker Cura 4.0 and above
 - Micro SD card
 
-# Files to download
+### Files to download
 
 - 3D model
 - Script
 
-# Steps
+### Steps
 
 1. Open the following link and copy its content (CTRL+A to select all, then CTRL+C to copy).
 2. Open Notepad and paste with CTRL+V. Then save the file as "Structure.gcode".
