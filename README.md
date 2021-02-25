@@ -19,7 +19,7 @@ created.
 
 ### Steps
 
-1. Open the following link and copy its content (CTRL+A to select all, then CTRL+C to copy).  
+1. Open the following link and copy all of its content (CTRL+A to select all, then CTRL+C to copy).  
       https://raw.githubusercontent.com/miniquinox/Time-lapse_Automation/main/Shutter%20Structure.gcode
 3. Open Notepad and paste with CTRL+V. Then save the file as "Structure.gcode".
 4. Put this file in your MicroSD card.
@@ -60,7 +60,7 @@ M140 S0 ;Turn-off bed
 M84 X Y E ;Disable all steppers but Z  
 
 12. You have now added your printer with timelapse settings!  
-13. Go ahead and download the following script:  
-        www.facebook.com
-14. sfdg
+13. Go ahead and open the following link:  
+        https://raw.githubusercontent.com/miniquinox/Time-lapse_Automation/main/CustomTimelapse.py
+14. Right click on the code and select "Save As". Save it as "CustomTimelapse" and file type "Python"
 15. 
