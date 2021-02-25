@@ -44,7 +44,7 @@ G92 E0 ; Reset Extruder
 G1 Z2.0 F3000 ; Move Z Axis up little to prevent scratching of Heat Bed  
 G1 X5 Y20 Z0.3 F5000.0 ; Move over to prevent blob squish  
   
-13. **Delete the content in the "End-Gcode" cell and replace it with the following:**
+11. **Delete the content in the "End-Gcode" cell and replace it with the following:**
 
 G91 ;Relative positioning\n  
 G1 E-2 F2700 ;Retract a bit\n  
@@ -58,8 +58,8 @@ M104 S0 ;Turn-off hotend
 M140 S0 ;Turn-off bed  
 M84 X Y E ;Disable all steppers but Z  
 
-14. You have now added your printer with timelapse settings!  
-15. Go ahead and download the following script:  
+12. You have now added your printer with timelapse settings!  
+13. Go ahead and download the following script:  
         www.facebook.com
-16. sfdg
-17. 
+14. sfdg
+15. 
