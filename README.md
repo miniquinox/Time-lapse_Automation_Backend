@@ -67,4 +67,8 @@ M84 X Y E ;Disable all steppers but Z
 18. Click on Extensions > Post Processing > Modify gcode
 19. Click on Add Script and select "Quino's timelapse". Once it's added, hit close and load your 3D model
 ##### DONE!
-21. 
+
+## STEPS FROM NOW ON
+- Simply put the shutter in its structure in the following way:
+- ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+- Connect it to your camera and you're ready to shoot amazing timelapses!!
