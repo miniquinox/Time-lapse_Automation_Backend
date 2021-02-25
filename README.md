@@ -31,7 +31,7 @@ created.
 7. Click on "Add a non-networked printer"
 8. Go down to "Creality3D" and select your printer
 9. On the right menu, change Printer name to "Time-lapse"  
-**10. Delete the content in the "Start-Gcode" cell and replace it with the following:**
+*10. Delete the content in the "Start-Gcode" cell and replace it with the following:*
   > ; Custom Start G-code for Time-lapse  
 G92 E0 ; Reset Extruder  
 G28 ; Home all axes  
