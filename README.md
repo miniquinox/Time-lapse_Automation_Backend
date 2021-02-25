@@ -70,5 +70,5 @@ M84 X Y E ;Disable all steppers but Z
 
 ## STEPS FROM NOW ON
 - Simply put the shutter in its structure in the following way:
-- ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Mounted Structure](https://raw.githubusercontent.com/miniquinox/Projects/master/20210225_153939.jpg)
 - Connect it to your camera and you're ready to shoot amazing timelapses!!
