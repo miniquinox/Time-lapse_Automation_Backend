@@ -60,5 +60,11 @@ M84 X Y E ;Disable all steppers but Z
 12. You have now added your printer with timelapse settings!  
 13. Go ahead and open the following link:  
       > https://raw.githubusercontent.com/miniquinox/Time-lapse_Automation/main/CustomTimelapse.py
-14. Right click on the code and select "Save As". Save it as "CustomTimelapse" and file type "Python"
-15. 
+14. Right click on the code and select "Save As". Save it as "CustomTimelapse" and file type "Python". Put this file in your desktop.
+15. On Cura, click on Help > Show configuration folder
+16. Open the scripts folder and move here your CustomTimelapse.py file that you saved in your desktop.
+17. Restart Cura (Close and open)
+18. Click on Extensions > Post Processing > Modify gcode
+19. Click on Add Script and select "Quino's timelapse". Once it's added, hit close and load your 3D model
+##### DONE!
+21. 
