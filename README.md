@@ -24,13 +24,13 @@ created.
 3. Put this file in your MicroSD card.
 4. Insert the MicroSD card and click on "Print from SD card". Select "Structure.gcode".  
       **Make sure to have at least 23 grams of PLA loaded on your printer**
-6. After it is done printing, wait for the bed to cool down and remove the print and its supports carefully.
-7. **Do the following steps regardless even if you have a printer added already**
-8. Open Ultimaker Cura and click on Settings > Printer > Add printer
-9. Click on "Add a non-networked printer"
-10. Go down to "Creality3D" and select your printer
-11. On the right menu, change Printer name to "Time-lapse"
-12. **Delete the content in the "Start-Gcode" cell and replace it with the following:**
+5. After it is done printing, wait for the bed to cool down and remove the print and its supports carefully.
+      **Do the following steps regardless even if you have a printer added already**
+6. Open Ultimaker Cura and click on Settings > Printer > Add printer
+7. Click on "Add a non-networked printer"
+8. Go down to "Creality3D" and select your printer
+9. On the right menu, change Printer name to "Time-lapse"
+10. **Delete the content in the "Start-Gcode" cell and replace it with the following:**
   
 ; Custom Start G-code for Time-lapse  
 G92 E0 ; Reset Extruder  
