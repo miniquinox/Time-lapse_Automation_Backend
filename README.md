@@ -20,7 +20,7 @@ created.
 ### Steps
 
 1. Open the following link and copy all of its content (CTRL+A to select all, then CTRL+C to copy).  
-      https://raw.githubusercontent.com/miniquinox/Time-lapse_Automation/main/Shutter%20Structure.gcode
+      > https://raw.githubusercontent.com/miniquinox/Time-lapse_Automation/main/Shutter%20Structure.gcode
 3. Open Notepad and paste with CTRL+V. Then save the file as "Structure.gcode".
 4. Put this file in your MicroSD card.
 5. Insert the MicroSD card and click on "Print from SD card". Select "Structure.gcode".  
