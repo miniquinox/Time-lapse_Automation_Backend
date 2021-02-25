@@ -43,19 +43,19 @@ G1 X0.4 Y20 Z0.3 F1500.0 E30 ; Draw the second line
 G92 E0 ; Reset Extruder  
 G1 Z2.0 F3000 ; Move Z Axis up little to prevent scratching of Heat Bed  
 G1 X5 Y20 Z0.3 F5000.0 ; Move over to prevent blob squish  
-
+  
 13. **Delete the content in the "End-Gcode" cell and replace it with the following:**
 
-G91 ;Relative positioning\n
-G1 E-2 F2700 ;Retract a bit\n
-G1 E-2 Z0.2 F2400 ;Retract and raise Z\n
-G1 X5 Y5 F3000 ;Wipe out
-G1 Z10 ;Raise Z more
-G90 ;Absolute positionning
-G1 X120 Y185 ;Present print
-M106 S0 ;Turn-off fan
-M104 S0 ;Turn-off hotend
-M140 S0 ;Turn-off bed
-M84 X Y E ;Disable all steppers but Z
+G91 ;Relative positioning\n  
+G1 E-2 F2700 ;Retract a bit\n  
+G1 E-2 Z0.2 F2400 ;Retract and raise Z\n  
+G1 X5 Y5 F3000 ;Wipe out  
+G1 Z10 ;Raise Z more  
+G90 ;Absolute positionning  
+G1 X120 Y185 ;Present print  
+M106 S0 ;Turn-off fan  
+M104 S0 ;Turn-off hotend  
+M140 S0 ;Turn-off bed  
+M84 X Y E ;Disable all steppers but Z  
 
 14. 
