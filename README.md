@@ -7,7 +7,7 @@ created.
 
 ### Hardware and Software necessary
 
-- One of the following 3D printers: Ender 2, Ender 3 Pro, Ender 3 V2  
+- One of the following 3D printers: Ender 3, Ender 3 Pro, Ender 3 V2  
      > https://www.amazon.com/s?k=ender+3&ref=nb_sb_noss_1
 - Sony camera (I use my Sony A7ii)  
 - Sony remore shutter  
