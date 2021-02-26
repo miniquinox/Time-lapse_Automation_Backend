@@ -7,13 +7,15 @@ created.
 
 ### Hardware and Software necessary
 
-- One of the following 3D printers: Ender 2, Ender 3 Pro, Ender 3 V2
-- Sony camera (I use my Sony A7ii)
-- Sony remore shutter
-     > https://www.amazon.com/gp/product/B00MULZSNQ/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1
-- 22g of filament
-- Ultimaker Cura 4.0 and above
-- Micro SD card
+- One of the following 3D printers: Ender 2, Ender 3 Pro, Ender 3 V2  
+     > https://www.amazon.com/s?k=ender+3&ref=nb_sb_noss_1
+- Sony camera (I use my Sony A7ii)  
+- Sony remore shutter  
+     > https://www.amazon.com/gp/product/B00MULZSNQ/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1  
+- 22g of filament  
+- Ultimaker Cura 4.0 and above  
+     > https://ultimaker.com/software/ultimaker-cura  
+- Micro SD card  
 
 ### Files to download
 
