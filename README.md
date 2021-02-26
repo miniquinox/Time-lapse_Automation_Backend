@@ -72,3 +72,6 @@ M84 X Y E ;Disable all steppers but Z
 - Simply put the shutter in its structure in the following way:  
   <img src="https://raw.githubusercontent.com/miniquinox/Projects/master/20210225_153939.jpg" width="400" height="300">
 - Connect it to your camera and you're ready to shoot amazing timelapses!!
+- Here is how your timelapses will look like:  
+  <img src="https://github.com/miniquinox/Projects/blob/master/Final%20Video%203%201080p_2.gif" width="400" height="300">
+
