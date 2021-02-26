@@ -1,4 +1,4 @@
-# SUPER SIMPLE Time-lapse Automation
+# SUPER SIMPLE 3D printer Time-lapse Automation
 
 This project will allow you to take a picture at the end of every layer of your 3D print,
 which will allow you to later on put them together in a scene using Adobe Premiere Pro.
