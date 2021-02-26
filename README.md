@@ -16,7 +16,6 @@ created.
 - Sony camera (I use my Sony A7ii)  
 - Micro SD card  
 - 22g of filament 
-- 
 
 ### Steps
 
