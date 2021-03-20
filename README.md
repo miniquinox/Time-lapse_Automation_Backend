@@ -19,19 +19,18 @@ created.
 
 ### Steps
 
-1. Open the following link and copy all of its content (CTRL+A to select all, then CTRL+C to copy).  
+1. download the following file and print it with supports (touching the build plate).  
       > https://raw.githubusercontent.com/miniquinox/Time-lapse_Automation/main/Shutter%20Structure.gcode
-3. Open Notepad and paste with CTRL+V. Then save the file as "Structure.gcode".
-4. Put this file in your MicroSD card.
-5. Insert the MicroSD card and click on "Print from SD card". Select "Structure.gcode".  
+2. Save the GCODE in your MicroSD card.
+3. Insert the MicroSD card and click on "Print from SD card". Select "Structure.gcode".  
       > **Make sure to have at least 23 grams of PLA loaded on your printer**  
-5. After it is done printing, wait for the bed to cool down and remove the print and its supports carefully.  
+4. After it is done printing, wait for the bed to cool down and remove the print and its supports carefully.  
       > **Do the following steps regardless even if you have a printer added already**  
-6. Open Ultimaker Cura and click on Settings > Printer > Add printer
-7. Click on "Add a non-networked printer"
-8. Go down to "Creality3D" and select your printer
-9. On the right menu, change Printer name to "Time-lapse"  
-10. Delete the content in the "Start-Gcode" cell and replace it with the following:
+5. Open Ultimaker Cura and click on Settings > Printer > Add printer
+6. Click on "Add a non-networked printer"
+7. Go down to "Creality3D" and select your printer
+8. On the right menu, change Printer name to "Time-lapse"  
+9. Delete the content in the "Start-Gcode" cell and replace it with the following:
   > ; Custom Start G-code for Time-lapse  
 G92 E0 ; Reset Extruder  
 G28 ; Home all axes  
@@ -44,7 +43,7 @@ G92 E0 ; Reset Extruder
 G1 Z2.0 F3000 ; Move Z Axis up little to prevent scratching of Heat Bed  
 G1 X5 Y20 Z0.3 F5000.0 ; Move over to prevent blob squish  
   
-11. Delete the content in the "End-Gcode" cell and replace it with the following:
+10. Delete the content in the "End-Gcode" cell and replace it with the following:
 > G91 ;Relative positioning\n  
 G1 E-2 F2700 ;Retract a bit\n  
 G1 E-2 Z0.2 F2400 ;Retract and raise Z\n  
@@ -57,15 +56,15 @@ M104 S0 ;Turn-off hotend
 M140 S0 ;Turn-off bed  
 M84 X Y E ;Disable all steppers but Z  
 
-12. You have now added your printer with timelapse settings!  
-13. Go ahead and open the following link:  
+11. You have now added your printer with timelapse settings!  
+12. Go ahead and open the following link:  
       > https://raw.githubusercontent.com/miniquinox/Time-lapse_Automation/main/CustomTimelapse.py
-14. Right click on the code and select "Save As". Save it as "CustomTimelapse" and file type "Python". Put this file in your desktop.
-15. On Cura, click on Help > Show configuration folder
-16. Open the scripts folder and move here your CustomTimelapse.py file that you saved in your desktop.
-17. Restart Cura (Close and open)
-18. Click on Extensions > Post Processing > Modify gcode
-19. Click on Add Script and select "Quino's timelapse". Once it's added, hit close and load your 3D model
+13. Right click on the code and select "Save As". Save it as "CustomTimelapse" and file type "Python". Put this file in your desktop.
+14. On Cura, click on Help > Show configuration folder
+15. Open the scripts folder and move here your CustomTimelapse.py file that you saved in your desktop.
+16. Restart Cura (Close and open)
+17. Click on Extensions > Post Processing > Modify gcode
+18. Click on Add Script and select "Quino's timelapse". Once it's added, hit close and load your 3D model
 ##### DONE!
 
 ## STEPS FROM NOW ON
